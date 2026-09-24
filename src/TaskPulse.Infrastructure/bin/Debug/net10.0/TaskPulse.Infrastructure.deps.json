@@ -1,0 +1,56 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "TaskPulse.Infrastructure/1.0.0": {
+        "dependencies": {
+          "TaskPulse.Application": "1.0.0",
+          "TaskPulse.Domain": "1.0.0"
+        },
+        "runtime": {
+          "TaskPulse.Infrastructure.dll": {}
+        }
+      },
+      "TaskPulse.Application/1.0.0": {
+        "dependencies": {
+          "TaskPulse.Domain": "1.0.0"
+        },
+        "runtime": {
+          "TaskPulse.Application.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "TaskPulse.Domain/1.0.0": {
+        "runtime": {
+          "TaskPulse.Domain.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TaskPulse.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TaskPulse.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TaskPulse.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "GFv1bp0F2NA=",
+  "success": true,
+  "projectFilePath": "/home/nathan/Lucas/DEV/PROJETOS/TaskPulse C#/TaskPulse/src/TaskPulse.Application/TaskPulse.Application.csproj",
+  "expectedPackageFiles": [
+    "/home/nathan/.nuget/packages/microsoft.aspnetcore.app.ref/10.0.11/microsoft.aspnetcore.app.ref.10.0.11.nupkg.sha512"
+  ],
+  "logs": []
+}

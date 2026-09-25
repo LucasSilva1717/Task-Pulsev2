@@ -1,5 +1,5 @@
+using TaskPulse.Domain.Exceptions;
 using TaskPulse.Domain.Enums;
-
 namespace TaskPulse.Domain.Entities;
 
 public class TaskItem

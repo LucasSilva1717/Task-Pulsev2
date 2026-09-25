@@ -1,21 +1,23 @@
 using Microsoft.EntityFrameworkCore;
 using TaskPulse.Domain.Entities;
+using TaskPulse.Domain.Repositories;
 
 namespace TaskPulse.Infrastructure.Persistence;
 
-public class AppDbContext : DbContext
+public class AppDbContext : DbContext, IUnitOfWork
 {
-    public AppDbContext(DbContextOptions<AppDbContext> options) : base(options) { }
+    public AppDbContext(DbContextOptions<AppDbContext> options) : base(options)
+    {
+    }
 
-    public DbSet<User> Users => Set<User>();
-    public DbSet<Project> Projects => Set<Project>();
     public DbSet<TaskItem> Tasks => Set<TaskItem>();
+    public DbSet<Project> Projects => Set<Project>();
+    public DbSet<User> Users => Set<User>();
     public DbSet<Comment> Comments => Set<Comment>();
 
-    protected override void OnModelCreating(ModelBuilder modelBuilder)
+    public async Task<bool> CommitAsync(CancellationToken cancellationToken = default)
     {
-        base.OnModelCreating(modelBuilder);
-        // Aplica automaticamente todas as configurações do assembly atual (IEntityTypeConfiguration)
-        modelBuilder.ApplyConfigurationsFromAssembly(typeof(AppDbContext).Assembly);
+        var affectedRows = await SaveChangesAsync(cancellationToken);
+        return affectedRows > 0;
     }
 }

@@ -6,7 +6,17 @@
 /home/nathan/Lucas/DEV/PROJETOS/TaskPulse C#/TaskPulse/tests/TaskPulse.UnitTests/bin/Debug/net10.0/TaskPulse.UnitTests.runtimeconfig.json
 /home/nathan/Lucas/DEV/PROJETOS/TaskPulse C#/TaskPulse/tests/TaskPulse.UnitTests/bin/Debug/net10.0/TaskPulse.UnitTests.dll
 /home/nathan/Lucas/DEV/PROJETOS/TaskPulse C#/TaskPulse/tests/TaskPulse.UnitTests/bin/Debug/net10.0/TaskPulse.UnitTests.pdb
+/home/nathan/Lucas/DEV/PROJETOS/TaskPulse C#/TaskPulse/tests/TaskPulse.UnitTests/bin/Debug/net10.0/FluentValidation.dll
+/home/nathan/Lucas/DEV/PROJETOS/TaskPulse C#/TaskPulse/tests/TaskPulse.UnitTests/bin/Debug/net10.0/FluentValidation.DependencyInjectionExtensions.dll
+/home/nathan/Lucas/DEV/PROJETOS/TaskPulse C#/TaskPulse/tests/TaskPulse.UnitTests/bin/Debug/net10.0/MediatR.dll
+/home/nathan/Lucas/DEV/PROJETOS/TaskPulse C#/TaskPulse/tests/TaskPulse.UnitTests/bin/Debug/net10.0/MediatR.Contracts.dll
 /home/nathan/Lucas/DEV/PROJETOS/TaskPulse C#/TaskPulse/tests/TaskPulse.UnitTests/bin/Debug/net10.0/Microsoft.VisualStudio.CodeCoverage.Shim.dll
+/home/nathan/Lucas/DEV/PROJETOS/TaskPulse C#/TaskPulse/tests/TaskPulse.UnitTests/bin/Debug/net10.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+/home/nathan/Lucas/DEV/PROJETOS/TaskPulse C#/TaskPulse/tests/TaskPulse.UnitTests/bin/Debug/net10.0/Microsoft.Extensions.Logging.Abstractions.dll
+/home/nathan/Lucas/DEV/PROJETOS/TaskPulse C#/TaskPulse/tests/TaskPulse.UnitTests/bin/Debug/net10.0/Microsoft.IdentityModel.Abstractions.dll
+/home/nathan/Lucas/DEV/PROJETOS/TaskPulse C#/TaskPulse/tests/TaskPulse.UnitTests/bin/Debug/net10.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/home/nathan/Lucas/DEV/PROJETOS/TaskPulse C#/TaskPulse/tests/TaskPulse.UnitTests/bin/Debug/net10.0/Microsoft.IdentityModel.Logging.dll
+/home/nathan/Lucas/DEV/PROJETOS/TaskPulse C#/TaskPulse/tests/TaskPulse.UnitTests/bin/Debug/net10.0/Microsoft.IdentityModel.Tokens.dll
 /home/nathan/Lucas/DEV/PROJETOS/TaskPulse C#/TaskPulse/tests/TaskPulse.UnitTests/bin/Debug/net10.0/Microsoft.TestPlatform.CoreUtilities.dll
 /home/nathan/Lucas/DEV/PROJETOS/TaskPulse C#/TaskPulse/tests/TaskPulse.UnitTests/bin/Debug/net10.0/Microsoft.TestPlatform.PlatformAbstractions.dll
 /home/nathan/Lucas/DEV/PROJETOS/TaskPulse C#/TaskPulse/tests/TaskPulse.UnitTests/bin/Debug/net10.0/Microsoft.VisualStudio.TestPlatform.ObjectModel.dll
@@ -93,6 +103,7 @@
 /home/nathan/Lucas/DEV/PROJETOS/TaskPulse C#/TaskPulse/tests/TaskPulse.UnitTests/obj/Debug/net10.0/TaskPulse.UnitTests.AssemblyInfoInputs.cache
 /home/nathan/Lucas/DEV/PROJETOS/TaskPulse C#/TaskPulse/tests/TaskPulse.UnitTests/obj/Debug/net10.0/TaskPulse.UnitTests.AssemblyInfo.cs
 /home/nathan/Lucas/DEV/PROJETOS/TaskPulse C#/TaskPulse/tests/TaskPulse.UnitTests/obj/Debug/net10.0/TaskPulse.UnitTests.csproj.CoreCompileInputs.cache
+/home/nathan/Lucas/DEV/PROJETOS/TaskPulse C#/TaskPulse/tests/TaskPulse.UnitTests/obj/Debug/net10.0/TaskPulse.UnitTests.sourcelink.json
 /home/nathan/Lucas/DEV/PROJETOS/TaskPulse C#/TaskPulse/tests/TaskPulse.UnitTests/obj/Debug/net10.0/TaskPuls.901A458C.Up2Date
 /home/nathan/Lucas/DEV/PROJETOS/TaskPulse C#/TaskPulse/tests/TaskPulse.UnitTests/obj/Debug/net10.0/TaskPulse.UnitTests.dll
 /home/nathan/Lucas/DEV/PROJETOS/TaskPulse C#/TaskPulse/tests/TaskPulse.UnitTests/obj/Debug/net10.0/refint/TaskPulse.UnitTests.dll

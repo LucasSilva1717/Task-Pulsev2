@@ -5,6 +5,7 @@
 /home/nathan/Lucas/DEV/PROJETOS/TaskPulse C#/TaskPulse/src/TaskPulse.Domain/obj/Debug/net10.0/TaskPulse.Domain.AssemblyInfoInputs.cache
 /home/nathan/Lucas/DEV/PROJETOS/TaskPulse C#/TaskPulse/src/TaskPulse.Domain/obj/Debug/net10.0/TaskPulse.Domain.AssemblyInfo.cs
 /home/nathan/Lucas/DEV/PROJETOS/TaskPulse C#/TaskPulse/src/TaskPulse.Domain/obj/Debug/net10.0/TaskPulse.Domain.csproj.CoreCompileInputs.cache
+/home/nathan/Lucas/DEV/PROJETOS/TaskPulse C#/TaskPulse/src/TaskPulse.Domain/obj/Debug/net10.0/TaskPulse.Domain.sourcelink.json
 /home/nathan/Lucas/DEV/PROJETOS/TaskPulse C#/TaskPulse/src/TaskPulse.Domain/obj/Debug/net10.0/TaskPulse.Domain.dll
 /home/nathan/Lucas/DEV/PROJETOS/TaskPulse C#/TaskPulse/src/TaskPulse.Domain/obj/Debug/net10.0/refint/TaskPulse.Domain.dll
 /home/nathan/Lucas/DEV/PROJETOS/TaskPulse C#/TaskPulse/src/TaskPulse.Domain/obj/Debug/net10.0/TaskPulse.Domain.pdb

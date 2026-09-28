@@ -13,15 +13,15 @@ public class Project
 
     public Project() { }
 
-    public Project(String name, String description, Guid ownerId)
+    public Project(string name, string description, Guid ownerId)
     {
-        if (String.IsNullOrWhiteSpace(name))
+        if (string.IsNullOrWhiteSpace(name))
         {
             throw new DomainException("O nome do projeto não pode ser vazio.");
         }
-        if (String.IsNullOrWhiteSpace(description))
+        if (string.IsNullOrWhiteSpace(description))
         {
-            throw new DomainException("A descrição do projeto não pode ser vazio.");
+            throw new DomainException("A descrição do projeto não pode ser vazia.");
         }
         if (ownerId == Guid.Empty)
         {

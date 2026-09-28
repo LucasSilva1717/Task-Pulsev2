@@ -59,3 +59,4 @@
 /home/nathan/Lucas/DEV/PROJETOS/TaskPulse C#/TaskPulse/src/TaskPulse.Api/obj/Debug/net10.0/TaskPulse.Api.pdb
 /home/nathan/Lucas/DEV/PROJETOS/TaskPulse C#/TaskPulse/src/TaskPulse.Api/obj/Debug/net10.0/TaskPulse.Api.genruntimeconfig.cache
 /home/nathan/Lucas/DEV/PROJETOS/TaskPulse C#/TaskPulse/src/TaskPulse.Api/obj/Debug/net10.0/ref/TaskPulse.Api.dll
+/home/nathan/Lucas/DEV/PROJETOS/TaskPulse C#/TaskPulse/src/TaskPulse.Api/bin/Debug/net10.0/Microsoft.Extensions.Configuration.Abstractions.dll

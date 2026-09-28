@@ -26,6 +26,6 @@ public class ProjectRepository : IProjectRepository
 
     public async Task<IEnumerable<Project>> GetByOwnerIdAsync(Guid ownerId, CancellationToken cancellationToken = default)
     {
-    return await _context.Projects.Where(p => p.OwnerId == ownerId).ToListAsync(cancellationToken);
+        return await _context.Projects.Where(p => p.OwnerId == ownerId).ToListAsync(cancellationToken);
     }
 }

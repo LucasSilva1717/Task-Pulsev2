@@ -17,7 +17,7 @@ public class TaskItem
 
     public TaskItem (){}
 
-    public TaskItem (string title, string description, TaskPriority priority, TaskState state, Guid projectId, Guid? AssignedUserId)
+    public TaskItem (string title, string description, TaskPriority priority, TaskState state, Guid projectId, Guid? assignedUserId)
     {
         if (string.IsNullOrWhiteSpace(title))
         {
@@ -30,7 +30,7 @@ public class TaskItem
         Priority = priority;
         State = state;
         ProjectId = projectId;
-        AssignedUserId = AssignedUserId;
+        AssignedUserId = assignedUserId;
         CreatedAt = DateTime.UtcNow;
         UpdatedAt = DateTime.UtcNow;
     }

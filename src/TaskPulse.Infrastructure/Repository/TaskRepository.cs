@@ -19,6 +19,13 @@ public class TaskRepository : ITaskRepository
         return await _context.Tasks.FirstOrDefaultAsync(t => t.Id == id, cancellationToken);
     }
 
+    public async Task<IEnumerable<TaskItem>> GetAllAsync(CancellationToken cancellationToken = default)
+    {
+        return await _context.Tasks
+            .AsNoTracking()
+            .ToListAsync(cancellationToken);
+    }
+
     public async Task<IEnumerable<TaskItem>> GetByProjectIdAsync(Guid projectId, CancellationToken cancellationToken = default)
     {
         return await _context.Tasks

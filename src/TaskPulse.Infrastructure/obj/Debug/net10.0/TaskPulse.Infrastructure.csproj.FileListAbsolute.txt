@@ -2,9 +2,7 @@
 /home/nathan/Lucas/DEV/PROJETOS/TaskPulse C#/TaskPulse/src/TaskPulse.Infrastructure/bin/Debug/net10.0/TaskPulse.Infrastructure.runtimeconfig.json
 /home/nathan/Lucas/DEV/PROJETOS/TaskPulse C#/TaskPulse/src/TaskPulse.Infrastructure/bin/Debug/net10.0/TaskPulse.Infrastructure.dll
 /home/nathan/Lucas/DEV/PROJETOS/TaskPulse C#/TaskPulse/src/TaskPulse.Infrastructure/bin/Debug/net10.0/TaskPulse.Infrastructure.pdb
-/home/nathan/Lucas/DEV/PROJETOS/TaskPulse C#/TaskPulse/src/TaskPulse.Infrastructure/bin/Debug/net10.0/TaskPulse.Application.dll
 /home/nathan/Lucas/DEV/PROJETOS/TaskPulse C#/TaskPulse/src/TaskPulse.Infrastructure/bin/Debug/net10.0/TaskPulse.Domain.dll
-/home/nathan/Lucas/DEV/PROJETOS/TaskPulse C#/TaskPulse/src/TaskPulse.Infrastructure/bin/Debug/net10.0/TaskPulse.Application.pdb
 /home/nathan/Lucas/DEV/PROJETOS/TaskPulse C#/TaskPulse/src/TaskPulse.Infrastructure/bin/Debug/net10.0/TaskPulse.Domain.pdb
 /home/nathan/Lucas/DEV/PROJETOS/TaskPulse C#/TaskPulse/src/TaskPulse.Infrastructure/obj/Debug/net10.0/TaskPulse.Infrastructure.csproj.AssemblyReference.cache
 /home/nathan/Lucas/DEV/PROJETOS/TaskPulse C#/TaskPulse/src/TaskPulse.Infrastructure/obj/Debug/net10.0/TaskPulse.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig

@@ -15,6 +15,12 @@ public class AppDbContext : DbContext, IUnitOfWork
     public DbSet<User> Users => Set<User>();
     public DbSet<Comment> Comments => Set<Comment>();
 
+    protected override void OnModelCreating(ModelBuilder modelBuilder)
+    {
+        modelBuilder.ApplyConfigurationsFromAssembly(typeof(AppDbContext).Assembly);
+        base.OnModelCreating(modelBuilder);
+    }
+
     public async Task<bool> CommitAsync(CancellationToken cancellationToken = default)
     {
         var affectedRows = await SaveChangesAsync(cancellationToken);

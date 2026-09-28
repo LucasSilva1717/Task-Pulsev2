@@ -1,6 +1,7 @@
 using MediatR;
 using TaskPulse.Domain.Enums;
 using TaskPulse.Domain.Entities;
+using TaskPulse.Domain.Exceptions;
 using TaskPulse.Domain.Repositories;
 
 namespace TaskPulse.Application.UseCases.Tasks.CreateTask;
@@ -26,7 +27,7 @@ public class CreateTaskCommandHandler : IRequestHandler<CreateTaskCommand, Guid>
         var project = await _projectRepository.GetByIdAsync(request.ProjectId, cancellationToken);
         if (project is null)
         {
-            throw new Exception("Projeto não encontrado."); // Aqui depois podemos usar o seu DomainException
+            throw new DomainException("Projeto não encontrado.");
         }
 
         var task = new TaskItem(

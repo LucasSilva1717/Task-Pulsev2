@@ -11,13 +11,12 @@ public static class DependencyInjection
 {
     public static IServiceCollection AddInfrastructure(this IServiceCollection services, IConfiguration configuration)
     {
-        // Configurando o EF Core com PostgreSQL
         services.AddDbContext<AppDbContext>(options =>
             options.UseNpgsql(configuration.GetConnectionString("DefaultConnection")));
 
         services.AddScoped<ITaskRepository, TaskRepository>();
-        services.AddScoped<IProjectRepository, ProjectRepository>(); // Certifique-se de registrar se já o criou
-        services.AddScoped<IUserRepository, UserRepository>();       // Certifique-se de registrar se já o criou
+        services.AddScoped<IProjectRepository, ProjectRepository>();
+        services.AddScoped<IUserRepository, UserRepository>();
         services.AddScoped<IUnitOfWork>(provider => provider.GetRequiredService<AppDbContext>());
 
         return services;

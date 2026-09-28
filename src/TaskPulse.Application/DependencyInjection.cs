@@ -1,8 +1,7 @@
 using System.Reflection;
 using FluentValidation;
-using MediatR;
 using Microsoft.Extensions.DependencyInjection;
-using TaskPulse.Application.Common.Behaviors; // Ajuste conforme o namespace onde colocou o Behavior
+using TaskPulse.Application.Common.Behaviors;
 
 namespace TaskPulse.Application;
 
@@ -12,15 +11,12 @@ public static class DependencyInjection
     {
         var assembly = Assembly.GetExecutingAssembly();
 
-        // Regista o MediatR
-        services.AddMediatR(cfg => {
+        services.AddMediatR(cfg =>
+        {
             cfg.RegisterServicesFromAssembly(assembly);
-            
-            // Regista o Pipeline Behavior de validação automaticamente
             cfg.AddOpenBehavior(typeof(ValidationBehavior<,>));
         });
 
-        // Regista automaticamente todos os validadores que herdam de AbstractValidator neste assembly
         services.AddValidatorsFromAssembly(assembly);
 
         return services;

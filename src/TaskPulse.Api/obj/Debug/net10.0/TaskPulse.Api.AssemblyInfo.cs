@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TaskPulse.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f219db39846f4fc4cd0fe63bc1bc08ced8ccad00")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c9cb208e0482576ea7ad3965806b50d78c703e3f")]
 [assembly: System.Reflection.AssemblyProductAttribute("TaskPulse.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TaskPulse.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

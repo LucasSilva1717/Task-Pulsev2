@@ -1,5 +1,6 @@
 using FluentValidation;
-using TaskPulse.Application.UseCases.Tasks.CreateTask; // Ajuste o namespace conforme a sua estrutura
+
+namespace TaskPulse.Application.UseCases.Tasks.CreateTask;
 
 public class CreateTaskCommandValidator : AbstractValidator<CreateTaskCommand>
 {

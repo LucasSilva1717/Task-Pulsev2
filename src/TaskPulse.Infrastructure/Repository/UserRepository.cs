@@ -1,5 +1,4 @@
 using Microsoft.EntityFrameworkCore;
-using TaskPulse.Infrastructure.Repositories; // Ajustar o namespace conforme a sua pasta
 using TaskPulse.Domain.Entities;
 using TaskPulse.Domain.Repositories;
 using TaskPulse.Infrastructure.Persistence;

@@ -1,7 +1,7 @@
 using MediatR;
 using TaskPulse.Domain.Repositories;
 
-namespace TaskPulse.Application.UseCases.Tasks.Queries;
+namespace TaskPulse.Application.UseCases.Tasks.Query;
 
 public record GetTasksQuery : IRequest<IEnumerable<TaskDto>>;
 

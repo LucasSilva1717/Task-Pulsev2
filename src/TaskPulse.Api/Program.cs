@@ -5,7 +5,7 @@ using TaskPulse.Application;
 using TaskPulse.Infrastructure;
 using TaskPulse.Infrastructure.Persistence;
 
-var builder = WebApplication.CreateBuilder(args);
+var builder = WebApplication.CreateBuilder(args); 
 
 builder.Services.AddOpenApi();
 

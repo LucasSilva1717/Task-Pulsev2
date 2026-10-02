@@ -1,6 +1,6 @@
 using MediatR;
 using TaskPulse.Application.UseCases.Tasks.CreateTask;
-using TaskPulse.Application.UseCases.Tasks.Queries;
+using TaskPulse.Application.UseCases.Tasks.Query;
 
 namespace TaskPulse.Api;
 

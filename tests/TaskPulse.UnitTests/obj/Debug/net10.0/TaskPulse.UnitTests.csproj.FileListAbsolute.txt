@@ -110,3 +110,11 @@
 /home/nathan/Lucas/DEV/PROJETOS/TaskPulse C#/TaskPulse/tests/TaskPulse.UnitTests/obj/Debug/net10.0/TaskPulse.UnitTests.pdb
 /home/nathan/Lucas/DEV/PROJETOS/TaskPulse C#/TaskPulse/tests/TaskPulse.UnitTests/obj/Debug/net10.0/TaskPulse.UnitTests.genruntimeconfig.cache
 /home/nathan/Lucas/DEV/PROJETOS/TaskPulse C#/TaskPulse/tests/TaskPulse.UnitTests/obj/Debug/net10.0/ref/TaskPulse.UnitTests.dll
+/home/nathan/Lucas/DEV/PROJETOS/TaskPulse C#/TaskPulse/tests/TaskPulse.UnitTests/bin/Debug/net10.0/Microsoft.EntityFrameworkCore.dll
+/home/nathan/Lucas/DEV/PROJETOS/TaskPulse C#/TaskPulse/tests/TaskPulse.UnitTests/bin/Debug/net10.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/home/nathan/Lucas/DEV/PROJETOS/TaskPulse C#/TaskPulse/tests/TaskPulse.UnitTests/bin/Debug/net10.0/Microsoft.Extensions.Caching.Abstractions.dll
+/home/nathan/Lucas/DEV/PROJETOS/TaskPulse C#/TaskPulse/tests/TaskPulse.UnitTests/bin/Debug/net10.0/Microsoft.Extensions.Caching.Memory.dll
+/home/nathan/Lucas/DEV/PROJETOS/TaskPulse C#/TaskPulse/tests/TaskPulse.UnitTests/bin/Debug/net10.0/Microsoft.Extensions.DependencyInjection.dll
+/home/nathan/Lucas/DEV/PROJETOS/TaskPulse C#/TaskPulse/tests/TaskPulse.UnitTests/bin/Debug/net10.0/Microsoft.Extensions.Logging.dll
+/home/nathan/Lucas/DEV/PROJETOS/TaskPulse C#/TaskPulse/tests/TaskPulse.UnitTests/bin/Debug/net10.0/Microsoft.Extensions.Options.dll
+/home/nathan/Lucas/DEV/PROJETOS/TaskPulse C#/TaskPulse/tests/TaskPulse.UnitTests/bin/Debug/net10.0/Microsoft.Extensions.Primitives.dll

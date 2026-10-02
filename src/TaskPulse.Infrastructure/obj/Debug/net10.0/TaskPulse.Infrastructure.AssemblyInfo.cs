@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TaskPulse.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c9cb208e0482576ea7ad3965806b50d78c703e3f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+45efd7a34dbf0717a02650248a05150f1bd569d4")]
 [assembly: System.Reflection.AssemblyProductAttribute("TaskPulse.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TaskPulse.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
